@@ -1,0 +1,38 @@
+.signup-container{
+    background-color: white;
+    z-index: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.signup-container h3{
+    text-align: left;
+    font-size: 25px;
+}
+.signup-btn{
+    width:100%;
+   
+   
+    background: #f0c14b;
+    border: 1px solid ;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+
+}
+.signup-btn:hover{
+    color: #ffffff !important;
+  background-color: #1F2838 !important;
+  border-color: #494F57 !important;
+}
+.signup-btn:active{
+    color: #ffffff !important;
+  background-color: #1F2838 !important;
+  border-color: #494F57 !important;
+}
+.signup-btn.active{
+    color: #ffffff !important;
+  background-color: #1F2838 !important;
+  border-color: #494F57 !important;
+
+}

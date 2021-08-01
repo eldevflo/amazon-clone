@@ -1,0 +1,25 @@
+.checkoutproduct{
+    display: flex;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.checkoutp-info{
+    padding-left: 20px;
+}
+.delete-btn{
+    margin-top:10px;
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+}
+.checkoutp-title{
+    font-size: 17px;
+    font-weight: 800;
+}
+.checkoutp-img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.checkoutp-rating{
+    display: flex;
+}

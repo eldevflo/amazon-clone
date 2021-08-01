@@ -1,0 +1,44 @@
+.register{
+     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    
+}
+.register-container{
+     width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.register-container button:hover {
+    color: #ffffff !important;
+  background-color: #1F2838 !important;
+  border-color: #494F57 !important;
+
+}
+.register-container button:focus {
+       color: #ffffff !important;
+  background-color: #1F2838 !important;
+  border-color: #494F57 !important;
+}
+.register-container Button.active {
+    color: #ffffff !important;
+  background-color: #1F2838 !important;
+  border-color: #494F57 !important;
+}
+
+.register-container Button{
+    background: #fac14b;
+    border-radius: 2px;
+    width:100%;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    font-weight: 600;
+}
