@@ -62,5 +62,9 @@
   .checkout{
       display: block;
   }
+  .checkout-product-sec img{
+      width: 100%;
+
+  }
    
 }

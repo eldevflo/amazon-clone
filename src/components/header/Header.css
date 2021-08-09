@@ -77,9 +77,17 @@
 }
  
 @media only screen and (max-width: 600px){
-    .header-logo{
+
+    .header-search-input{
         display: none;
     }
-  
-   
+    .header-searchIcon{
+        width:50%
+
+
+    }
+    .header-logo{
+        width: 50%;
+    }
+
 }

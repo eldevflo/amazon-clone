@@ -21,6 +21,7 @@ function Checkout() {
                 <h5 className="checkout-useremail"> {user?.email}</h5> 
                 
                 {/* showing shopping basket */}
+                <div className='checkout-product-sec'>
                 {basket.map(item =>(
                 <CheckOutProduct
                     id={item.id}
@@ -31,6 +32,7 @@ function Checkout() {
                 />
                 
                  ) )}
+                 </div>
 
         </div>
         </div>

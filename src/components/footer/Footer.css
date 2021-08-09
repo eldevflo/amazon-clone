@@ -16,3 +16,9 @@
     list-style: none;
     cursor: pointer;
 }
+@media screen and (max-width:690px){
+    .footer{
+        flex-direction: column;
+        flex-flow: column;
+    }
+}

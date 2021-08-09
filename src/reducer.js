@@ -3,7 +3,7 @@ export const initialState={
     user: null,
     product: [],
 }
-// privce assesment {it will be set into value={getBasketTotal(basket)}}
+// price assesment {it will be set into value={getBasketTotal(basket)}}
 export const getBasketTotal = (basket) => 
     basket?.reduce((amount, item) => item.price + amount  , 0)
 

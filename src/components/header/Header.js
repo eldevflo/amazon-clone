@@ -17,7 +17,7 @@ function Header() {
 
     return (
         
-        <div className="Header container-fluid" >
+        <div className="Header" >
             <Link to="/">
                 <img className="header-logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" />
 
@@ -27,7 +27,7 @@ function Header() {
                 />
                 <SearchIcon className="header-searchIcon "/>
             </div>           
-            <div className="header-nav"></div>
+            <div className="header-nav navbar navbar-expand-lg"></div>
             <Link to={!user && '/login' } >
                 <div  onClick={handleAuthentication}
                  className="header-option">
